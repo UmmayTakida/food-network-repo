@@ -6,6 +6,7 @@ body{
 
 .flex-container{
     display: flex;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -16,16 +17,37 @@ h4{
 }
 .half-width{
     width: 50%;
-    margin-left: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
 }
 .half-width img{
-    width: 70%;
+    width: 90%;
+    margin-bottom: 40px;
 
 }
 p{
     font-size: 25px;
     text-align: justify;
     font-weight: 700;
+}
+#person{
+    height: 70%;
+}
+.link-buttom{
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.middle{
+    background: url(images/shapes/7.png) no-repeat;
+    background-size: 100% 80%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 #top-box{
     margin-left: 150px;
@@ -42,4 +64,7 @@ p{
 span{
     color: brown
     ;
+}
+#receipe{
+    text-align: center;
 }
