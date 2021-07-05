@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.flex-container{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+
+}
+h4{
+    font-size: 25px;
+}
+.half-width{
+    width: 50%;
+    margin-left: 50px;
+}
+.half-width img{
+    width: 70%;
+
+}
+p{
+    font-size: 25px;
+    text-align: justify;
+    font-weight: 700;
+}
+#top-box{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 220px;
+}
+.follower{
+    width: 80%;
+    padding-left: 60px;
+
+}
+span{
+    color: brown
+    ;
+}
