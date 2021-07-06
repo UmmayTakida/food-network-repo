@@ -118,12 +118,12 @@ p{
 .five-width{
     width: 50%;
     font-size: 25px;
-    padding-left: 40px;
+    padding-left: 100px;
 
 }
 ul{
     text-align: justify;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 700;
 }
 footer {
