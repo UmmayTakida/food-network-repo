@@ -24,6 +24,9 @@ h2{
 h4{
     font-size: 15px;
 }
+h5{
+    color: teal;
+}
 span{
     color: teal;
 }
@@ -101,6 +104,20 @@ p{
 }
 #view{
     font-size: 12px;
+}
+.last-part{
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+}
+.five-width{
+    width: 50%;
+    font-size: 25px;
+
 }
 footer {
     background-color: black;
