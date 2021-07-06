@@ -11,65 +11,54 @@ section{
     display: flex;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 
 }
 h2{
-    font-size: 40px;
-    color: yellowgreen;
+    font-size: 30px;
+    color: black;
+}
+#about{
+    margin-top: 50px;
 }
 h4{
-    font-size: 25px;
+    font-size: 15px;
+}
+span{
+    color: teal;
 }
 .half-width{
     width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 60px;
+    margin-right: 40px;
     margin-top: 10px;
 }
 .half-width img{
-    width: 90%;
-    margin-bottom: 40px;
-
+    margin-right: 200px;
 }
 p{
-    font-size: 25px;
+    font-size: 15px;
     text-align: justify;
     font-weight: 700;
 }
 
 .link-buttom{
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(cyan, teal);
     text-decoration: none;
     padding: 10px 40px;
-    border-radius: 20px;
+    border-radius: 40px;
     text-align: center;
     font-size: 25px;
     font-weight: 700;
 }
 .middle{
-    background: url(images/shapes/7.png) no-repeat;
+    background: url(images/shapes/Frame\ 57.jpg) no-repeat;
     background-size: 100% 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-#top-box{
-    margin-left: 150px;
-    margin-right: 150px;
-    background-color: whitesmoke;
-    border-radius: 20px;
-    height: 220px;
-}
-.follower{
-    width: 80%;
-    padding-left: 60px;
-
-}
-span{
-    color: brown;
+    
 }
 #receipe{
     text-align: center;
+    color: cornflowerblue;
 }
 .rep-title{
     margin-left: 300px;
@@ -78,9 +67,15 @@ span{
     font-size: 16px;
     font-weight: 700;
 }
+.box-recp{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 120px;
+}
 .third-width{
-    width:34%;
-    box-shadow: 10px 10px 40px wheat;
+    width: 40%;
+    height: 50%;
+    box-shadow: 10px 10px 40px cyan;
     margin-left: 2%;
     margin-right: 2%;
     padding: 20px;
@@ -88,21 +83,42 @@ span{
 }
 .third-width img{
     width: 100%;
-    height: 60%;
+    height: 40%;
 }
-.box-recp{
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 120px;
+#follower-box{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 200px;
+}
+.follower{
+    width: 80%;
+    padding-left: 60px;
+
+}
+#view{
+    font-size: 12px;
 }
 footer {
-    background-color: blueviolet;
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 10%;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 
-    margin-right: 10%;
-    padding-bottom: 10px;
-    height: 150px;
+}
+footer h1{
+    text-align: center;
+    color: white;
+}
+footer p{
+    font-size: 15px;
+    font-weight: 700;
+    color: cornsilk;
+    text-align: center;
     
 }
