@@ -11,7 +11,7 @@ section{
     display: flex;
 }
 h1{
-    font-size: 35px;
+    font-size: 40px;
 
 }
 h2{
@@ -21,14 +21,17 @@ h2{
 #about{
     margin-top: 50px;
 }
-h4{
-    font-size: 15px;
-}
-h5{
-    color: black;
-}
+
 span{
     color: teal;
+}
+#about{
+    margin-top: 50px;
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 700;
 }
 .half-width{
     width: 50%;
@@ -39,11 +42,7 @@ span{
 .half-width img{
     margin-right: 200px;
 }
-p{
-    font-size: 15px;
-    text-align: justify;
-    font-weight: 700;
-}
+
 
 .link-buttom{
     background-image: linear-gradient(cyan, teal);
@@ -101,9 +100,6 @@ p{
     width: 80%;
     padding-left: 60px;
 
-}
-#view{
-    font-size: 12px;
 }
 .last-part{
     background-color: skyblue;
